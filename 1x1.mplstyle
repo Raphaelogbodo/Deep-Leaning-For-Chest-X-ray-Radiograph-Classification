@@ -1,0 +1,140 @@
+#####################################
+#   FIGURE
+figure.figsize      : 8.0, 8.0
+figure.titlesize    : 14.0
+figure.titleweight  : bold
+figure.dpi          : 600
+figure.frameon      : False
+#####################################
+# SUBPLOTS
+## The figure subplot parameters.  All dimensions are a fraction of the figure width and height.
+figure.subplot.left:   0.20   # the left side of the subplots of the figure
+figure.subplot.right:  0.95   # the right side of the subplots of the figure
+figure.subplot.bottom: 0.22   # the bottom of the subplots of the figure
+figure.subplot.top:    0.90   # the top of the subplots of the figure
+figure.subplot.wspace: 0.15   # the amount of width reserved for space between subplots,
+                              # expressed as a fraction of the average axis width
+figure.subplot.hspace: 0.2    # the amount of height reserved for space between subplots,
+                              # expressed as a fraction of the average axis height
+#####################################
+#   TEXT/FONT
+text.antialiased    : True
+text.usetex         : True
+text.latex.preamble : \usepackage{sfmath} \usepackage{gensymb} \boldmath
+font.style          : oblique
+font.weight         : bold
+font.size           : 16.0
+font.family         : sans-serif
+font.sans-serif     : Helvetica
+mathtext.fontset    : cm
+mathtext.default    : regular
+mathtext.fallback   : cm
+#####################################
+#   AXIS
+axes.edgecolor      : black
+axes.autolimit_mode : data
+##########################
+axes.titlelocation  : center
+xaxis.labellocation : center
+yaxis.labellocation : center
+##########################
+axes.titlesize      : 14.0
+axes.titleweight    : normal
+axes.titlecolor     : black
+##########################
+axes.labelsize      : 16.0
+axes.labelpad       : 4.0
+axes.labelweight    : bold
+axes.labelcolor     : black
+axes.linewidth      : 2.0
+##########################
+axes.formatter.use_mathtext : True
+###########################
+axes.spines.top     : True
+axes.spines.bottom  : True
+axes.spines.left    : True
+axes.spines.right   : True
+###########################
+axes.grid:          False
+axes.grid.axis:     both
+axes.grid.which:    major
+#####################################
+#    XTICKS (ON/OFF)
+xtick.top           : False
+xtick.labeltop      : False
+xtick.bottom        : True
+xtick.labelbottom   : True
+#    YTICKS (ON/OFF)
+ytick.left          : True
+ytick.labelleft     : True
+ytick.right         : False
+ytick.labelright    : False
+#############################
+# MINOR TICKS (ON/OFF)
+xtick.minor.visible : True
+xtick.color   : black
+ytick.minor.visible : True
+ytick.color   : black
+#############################
+#  TICK LABELS SIZE
+xtick.labelsize     : 16
+ytick.labelsize     : 16
+#############################
+# MAJOR TICKS (SIZE/WIDTH)
+xtick.major.size    : 10.0
+xtick.major.width   : 2.0
+ytick.major.size    : 10.0
+ytick.major.width   : 2.0
+#############################
+# MINOR TICKS (SIZE/WIDTH)
+xtick.minor.size    : 5.0
+xtick.minor.width   : 1.0
+ytick.minor.size    : 5.0
+ytick.minor.width   : 1.0
+##########################
+# TICK PADDING
+xtick.major.pad     : 3.5
+xtick.minor.pad     : 3.4
+ytick.major.pad     : 3.5
+ytick.minor.pad     : 3.4
+#####################################
+#    LINES
+lines.linewidth     : 2.5
+lines.linestyle     : -
+lines.marker        : None
+lines.markersize    : 5
+lines.antialiased   : True
+#####################################
+# LEGEND
+legend.loc          : upper right
+legend.frameon      : False     # if True, draw the legend on a background patch
+legend.framealpha   : 1.0      # legend patch transparency
+legend.facecolor    : inherit  # inherit from axes.facecolor; or color spec
+legend.edgecolor    : 0.8    # background patch boundary color
+legend.fancybox     : False     # if True, use a rounded box for the
+                               # legend background, else a rectangle
+legend.shadow       : False    # if True, give background a shadow effect
+legend.numpoints    : 1        # the number of marker points in the legend line
+legend.scatterpoints: 1        # number of scatter points
+legend.markerscale  : 2.0      # the relative size of legend markers vs. original
+legend.fontsize     : 12.0
+legend.labelcolor   : None
+legend.title_fontsize: None    # None sets to the same as the default axes.
+
+#####################################
+#    PATCHES
+patch.linewidth     : 1
+patch.facecolor     : C0
+patch.edgecolor     : black
+patch.antialiased   : True
+#####################################
+#    EXTRA/UTILITIES
+ps.distiller.res    : 600
+ps.usedistiller     : xpdf
+path.simplify       : False
+savefig.dpi         : figure
+savefig.facecolor   : auto
+savefig.edgecolor   : auto
+savefig.format      : pdf
+savefig.transparent : False
+savefig.orientation : landscape
