@@ -37,7 +37,7 @@ It contains labeled chest X-ray images for **pneumonia** and **normal** cases, a
 
 ### Model Architecture
 
-![Overall Model](images/model_diagram.png)
+![Overall Model](figures/model_diagram.png)
 *Figure: Overview of the CNN with ResNet-18 backbone and triplet loss framework.*
 
 ### Training Pipeline
